@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+.main-nav{
+    width: 100vw;
+    /* padding: 4px 20px; */
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid rgba(2, 20, 41, 0.587);
+    box-shadow: 2px 2px 30px solid rgba(1, 13, 28, 0.587);
+    z-index: 5;
+    background-color: rgb(246, 249, 248)
+}
+.inner-nav{
+    padding: 3px;
+    margin: 3px 80px;
+    /* margin-left: 100px; */
+}
+
+.inner-nav .nav-head{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2.9em;
+    color: rgb(44, 75, 56);
+}
+
+.inner-nav .nav-head:hover{
+    text-shadow: 2px 2px 15px rgb(60, 188, 146);
+}
+
+.inner-nav1{
+    display: flex;
+    gap: 50px;
+   margin-left: 320px;
+}
+.inner-nav1 a{
+    text-decoration: none;
+    font-size:1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.3em;
+    font-stretch: expanded;
+    font-weight: 800;
+    color: #064229;
+
+}
+
+.inner-nav1 a:hover{
+    /* text-shadow: 2px 2px 7px rgb(3, 3, 122); */
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 33, 21);
+    border-radius: 20px;
+    color: rgb(49, 179, 122);
+}
+
+.nav-item{
+    text-decoration: none;
+    background-color: rgb(51, 111, 95);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 2px;
+    margin-left: 90px;
+    font-size: larger;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item:hover{
+    background-color: rgb(29, 168, 122);
+}

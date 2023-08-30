@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.searching .s-img{
+    left: 50%;
+}
+.search-main-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.LinkingSearch{
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar{
+    width: calc(100% - 400px);
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content:flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid rgb(4, 33, 20);
+    border-radius: 10px;
+    box-shadow: 2px 2px 19px rgb(105, 101, 101);
+    padding: 20px;
+}
+.search-bar div{
+    text-align:start;
+}
+.search-main-container .search-bar h2{
+    margin-bottom: 7px;
+    font-size: 16px;
+    color: black;
+    text-shadow: none;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+
+} 
+.search-container{
+    width: 190px;
+    border-right: 2px solid grey;
+    /* border: 2px solid; */
+}
+.search-container label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.search-container label input{
+    width: 80%;
+    font-size: 15px;
+    height: 34px;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    padding-left: 7px;
+    box-shadow: 2px 2px 10px rgba(12, 47, 28, 0.404);
+}
+.search-btn{
+    margin-top: 10px;
+}
+
+.searching{
+    text-decoration: none;
+    margin-top: 100px;
+    justify-content: center;
+}
+.search-result{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-left: 150px;
+}
+.search-hotel{
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 280px;
+    min-width: 280px;
+    box-shadow: 2px 2px 10px rgba(106, 102, 102, 0.839);
+    text-align: center;
+    line-height: 5px;
+    min-height: 330px;
+}
+.search-hotel .search-hotel-detail{
+    text-decoration: none;
+}
+/* .search-hotel .search-hotel-detail .himg{
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(1.2) contrast(1.2);
+} */
+
+.search-hotel div img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.search-hotel div .hotel-name{
+    line-height: 20px;
+    margin-top: 65px;
+    max-width: 280px;
+    display: contents;
+    word-wrap: break-word;
+   
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.search-hotel div p{
+    font-family: 'Playfair Display', serif;
+    line-height: 20px;
+}
+.search-hotel div .review{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.search-hotel div .review .rating{
+
+    color: white;
+    font-weight: 800;
+    background-color: rgba(9, 113, 68, 0.993);
+    padding:0px 6px 0px 6px;
+    border-radius: 5px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.search-hotel div .review .rating img{
+    border: none;
+}
+.review .word{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(22, 66, 51);
+}
+.search-hotel div .price-detail{
+    display: inline-block;
+    margin: auto;
+    align-self:flex-start;
+}
+
+.search-hotel div .price-detail .price{
+    text-align: center;
+    padding: 10px 25px;
+    margin:10px 0px;
+    height: 15px;
+    background-color: rgb(83, 186, 129);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    align-self: flex-start;
+}
+

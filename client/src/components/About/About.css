@@ -1,0 +1,46 @@
+.about-main-container{
+    padding: 10px;
+}
+.about-container{
+    padding: 20px 60px;
+    display: flex;
+    gap:170px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ac-text{
+    width: 550px;
+}
+.ac-text .ac-head{
+    font-size: 1.8em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(61, 117, 98);
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin: 15px;
+}
+.ac-content{
+    font-size: 1.1em;
+    padding: 10px;
+    line-height: 25px;
+}
+.ac-tab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.ac-tab .atc-content{
+    background-color: rgb(78, 167, 130);
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.ac-tab .atc-head{
+    margin-top: 15px;
+}
